@@ -1,0 +1,18 @@
+Requirement already satisfied: numpy in c:\users\acer\appdata\local\programs\python\python38\lib\site-packages (1.19.4)
+Collecting numpy
+  Using cached numpy-1.24.4-cp38-cp38-win_amd64.whl.metadata (5.6 kB)
+Requirement already satisfied: pandas in c:\users\acer\appdata\local\programs\python\python38\lib\site-packages (0.25.3)
+Collecting pandas
+  Using cached pandas-2.0.3-cp38-cp38-win_amd64.whl.metadata (18 kB)
+Using cached numpy-1.24.4-cp38-cp38-win_amd64.whl (14.9 MB)
+Using cached pandas-2.0.3-cp38-cp38-win_amd64.whl (10.8 MB)
+Installing collected packages: pandas, numpy
+  Attempting uninstall: pandas
+    Found existing installation: pandas 0.25.3
+    Uninstalling pandas-0.25.3:
+      Successfully uninstalled pandas-0.25.3
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.19.4
+    Uninstalling numpy-1.19.4:
+      Successfully uninstalled numpy-1.19.4
+Successfully installed numpy-1.24.4 pandas-2.0.3
