@@ -28,7 +28,7 @@ def extract(file_path, file_format):
         raise Exception(f"Invalid document format: {file_format}")
 
     return extracted_data
-
-if __name__ == '__main__':
-    data = extract('../resources/prescription/pre_2.pdf', 'prescription')
-    print(data)
+#
+# if __name__ == '__main__':
+#     data = extract('../resources/prescription/pre_2.pdf', 'prescription')
+#     print(data)

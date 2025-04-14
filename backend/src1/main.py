@@ -29,7 +29,7 @@ def extract_from_doc(
         os.remove(file_path)
 
     return data
-
-# Only runs if you execute this file directly (not needed if running uvicorn externally)
-if __name__ == "__main__":
-    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
+#
+# # Only runs if you execute this file directly (not needed if running uvicorn externally)
+# if __name__ == "__main__":
+#     uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
