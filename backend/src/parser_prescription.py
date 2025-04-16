@@ -1,5 +1,5 @@
 import re
-from backend.src1.parser_generic import MedicalDocparser
+from src.parser_generic import MedicalDocparser
 
 class PrescriptionParser(MedicalDocparser):
     def __init__(self, text):
