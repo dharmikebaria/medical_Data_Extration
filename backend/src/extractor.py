@@ -1,9 +1,9 @@
 from pdf2image import convert_from_path
 import pytesseract
-import util
+from src import util
 
-from parser_prescription import PrescriptionParser
-from parser_patients_detail import PatientDetailsParser
+from src.parser_prescription import PrescriptionParser
+from src.parser_patients_detail import PatientDetailsParser
 
 POPPLER_PATH = r'C:\poppler-21.02.0\Library\bin'
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
