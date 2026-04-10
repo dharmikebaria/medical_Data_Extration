@@ -1,0 +1,16 @@
+# Backend dependencies
+fastapi
+uvicorn[standard]
+python-multipart
+
+# OCR and PDF processing
+pdf2image
+pytesseract
+
+# Image processing
+opencv-python
+numpy
+
+# Frontend dependencies (Streamlit UI)
+streamlit
+requests
